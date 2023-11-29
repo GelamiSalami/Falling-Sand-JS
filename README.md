@@ -1,7 +1,8 @@
 # Falling Sand JS
 
 CPU falling sand simulation in JavaScript
-https://gelamisalami.github.io/Quadtree-Displacement-Mapping/
+
+https://gelamisalami.github.io/Falling-Sand-JS/
 
 ## Controls
 - Left click / Touch to draw
