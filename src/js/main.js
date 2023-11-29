@@ -89,6 +89,7 @@ const settings = {
 	brushRadius: BRUSH_RADIUS,
 	brushProbability: 1.0,
 	showUpdateMask: false,
+	clearFunc: () => world.clear(),
 }
 
 const brushTypeController = gui.add(settings, "brushType", 0, 9, 1).name("Brush Type");
@@ -97,6 +98,8 @@ const brushRadiusController = gui.add(settings, "brushRadius", MIN_BRUSH_RADIUS,
 gui.add(settings, "brushProbability", 0.0, 1.0).name("Brush Probability");
 
 const updateMaskController = gui.add(settings, "showUpdateMask").name("Show Update Mask");
+
+gui.add(settings, "clearFunc", 0.0, 1.0).name("Clear World");
 
 const mouse = {
 	x: 0, y: 0,
