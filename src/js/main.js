@@ -166,7 +166,7 @@ function keyPressed(event) {
 	} else if (keyCode >= 96 && keyCode <= 105) {
 		brushTypeController.setValue(keyCode - 96);
 	}
-	if (keyCode === 68) {
+	if (keyCode === 32) {
 		updateMaskController.setValue(!settings.showUpdateMask);
 	}
 

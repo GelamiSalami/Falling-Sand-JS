@@ -9,3 +9,4 @@ https://gelamisalami.github.io/Falling-Sand-JS/
 - Right click / Two touches to erase
 - Keys 0-9 to select type
 - Scroll to change brush size
+- Space to show update mask
